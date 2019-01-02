@@ -1,4 +1,7 @@
+.settings
+.project
 .gradle
+.classpath
 gradle
 gradlew
 gradlew.bat
