@@ -45,7 +45,7 @@ https://github.com/gilpgnet/AideSincro.
    ```Batchfile
         call gradlew installDebug
    ```
-  Compila el código y lo instala en el móvil. Solo tienes que hacer clic en el ícono instalado en el dispositivo.
+   Compila el código y lo instala en el móvil. Solo tienes que hacer clic en el ícono instalado en el dispositivo.
   
 6. Si la aplicación aborta inesperadamente, introduce el siguiente comando
    ```Batchfile
