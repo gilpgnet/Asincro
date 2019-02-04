@@ -57,4 +57,4 @@ https://github.com/gilpgnet/AideSincro.
    ```Batchfile
         call clean
    ```
-   Para volver a usar el proyecto, usa el paso 5.
+   Para volver a usar el proyecto, repite a partir del paso 5.
