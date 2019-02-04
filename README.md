@@ -46,9 +46,15 @@ https://github.com/gilpgnet/AideSincro.
         call gradlew installDebug
    ```
   Compila el código y lo instala en el móvil. Solo tienes que hacer clic en el ícono instalado en el dispositivo.
+  
 6. Si la aplicación aborta inesperadamente, introduce el siguiente comando
    ```Batchfile
         call adb logcat > logcat.txt
    ```
    
    Revisa el contenido del archivo _logcat.txt_. Es algo largo, pero revísalo desde el final hacia el inicio.
+7. Para eliminar los archivos innecesarios después de trabajar, ejecuta el comando
+   ```Batchfile
+        call clean
+   ```
+  Para volver a usar el proyecto, usa el paso 5.
