@@ -41,7 +41,7 @@ https://github.com/gilpgnet/AideSincro.
    - carpeta gradle
    - gradlew
    - gradlew.bat
-5. Modifica la URL del servicio en "/app/src/main/java/net/ramptors/asincro/Util.java".
+5. Modifica la URL del servicio en [/app/src/main/java/net/ramptors/asincro/Util.java](/app/src/main/java/net/ramptors/asincro/Util.java).
 6. Para ejecutar el código, ejecuta el comando
    ```Batchfile
         call gradlew installDebug
