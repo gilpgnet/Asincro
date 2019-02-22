@@ -40,20 +40,21 @@ https://github.com/gilpgnet/AideSincro.
    - carpeta .gradle
    - carpeta gradle
    - gradlew
-   - gradlew.bat  
-5. Para ejecutar el código, ejecuta el comando
+   - gradlew.bat
+5. Modifica la URL del servicio en "/app/src/main/java/net/ramptors/asincro/Util.java".
+6. Para ejecutar el código, ejecuta el comando
    ```Batchfile
         call gradlew installDebug
    ```
    Compila el código y lo instala en el móvil. Solo tienes que hacer clic en el ícono instalado en el dispositivo.
   
-6. Si la aplicación aborta inesperadamente, introduce el siguiente comando
+7. Si la aplicación aborta inesperadamente, introduce el siguiente comando
    ```Batchfile
         call adb logcat > logcat.txt
    ```
    
    Revisa el contenido del archivo _logcat.txt_. Es algo largo, pero revísalo desde el final hacia el inicio.
-7. Para eliminar los archivos innecesarios después de trabajar, ejecuta el comando
+8. Para eliminar los archivos innecesarios después de trabajar, ejecuta el comando
    ```Batchfile
         call clean
    ```
